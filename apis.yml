@@ -1,7 +1,26 @@
 aid: smart-reno
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smart-reno.png
 name: Smart Reno
-description: Smart Reno is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Smart Reno is a Montreal-based home-renovation marketplace, founded in 2012 by Andrei Uglar,
+  that connects homeowners with qualified, available local contractors. Homeowners post a project
+  and receive up to three competing quotes from vetted renovation professionals through a proprietary
+  contractor-matching platform. Backed by 500 Startups (500 Global), Anges Quebec, and BDC, Smart Reno
+  was acquired by RBC Ventures in 2019 and now operates its consumer marketplace under the
+  soumissionrenovation.ca brand across Quebec, Ontario, and Alberta. The company exposes no public
+  developer API, SDK, documentation portal, or webhook surface; smartreno.com 301-redirects to the
+  successor site and no /.well-known discovery documents were found.
 url: https://raw.githubusercontent.com/api-evangelist/smart-reno/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Home Renovation
+- Marketplace
+- Contractors
+- Construction
+- Lead Generation
+- Canada
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://smartreno.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
